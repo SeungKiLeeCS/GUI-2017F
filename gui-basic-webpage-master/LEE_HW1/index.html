@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <h2>Seung Ki Lee's Website!</h2>
+    </header>
+
+  
+    <!--picture upload problem -->
+    <img class = relative, img src="https://i.imgur.com/swy2cYb.jpg">
+    <img class = relative, img src="https://i.imgur.com/X6T4zG9.jpg" height=200px width=180px>
+
+    <main>
+      <article>
+        <h3>About Myself</h3>
+        
+        <p>I am a senior from Korea (SOUTH!, NOT NORTH!) currently pursuing a degree in Computer Science and Economics in SMU.
+        With busy schedule at school I spend my free time reading small bits of text, writing fictions and recording music.
+        In terms of coding, my first language is C++ and I am most proficient in C++ and Python with little experience in javascript and java.
+        My area of interest is Data Science. Having my background in Macro Economics and Labor Economics, I am eager to utilize data science to analyze and solve real world problems with wages and growth rate</p>
+      </article>
+
+      <section id = "fake-hobby">
+      <!-- list of hobbies -->
+        <h3>Real Hobbies</h3>
+      
+        <ul>
+          <li>Play League of Legends</li>
+          <li>Write fictions</li>
+          <li>Record Music</li>
+          <li>Read anything</li>
+          <li>Play Soccer</li>
+        </ul>
+      </section>
+
+      
+      <section id = "hobby">
+      <!-- list of hobbies -->
+        <h3>My Hobbies</h3>
+      
+        <ul>
+          <li>Work on DB-GUI group project</li>
+          <li>Review statisitics for ML</li>
+          <li>Read U.S. Constitution</li>
+          <li>Sing the U.S. National Anthem</li>
+        </ul>
+      </section>
+      
+      <!--use aside-->
+      <aside class="table-data">
+        <h3>My Courses</h3>
+        <table>
+        <!--list of courses-->
+        <tr>
+          <th>Course Name</th>
+          <th>Course Number</th>
+          <th>Instructor</th>
+        </tr>        
+
+        <tr>
+          <td>Software Engineering Principle</td>
+          <td>CSE 4345</td>
+          <td>M.Houri</td>
+        </tr>
+        <tr>
+          <td>Digital Computer Design</td>
+          <td>CSE 4381</td>
+          <td>J.Dworak</td>
+        </tr>
+        <tr>
+          <td>Machine Learning</td>
+          <td>CSE 5324</td>
+          <td>E.Larson</td>
+        </tr>
+        <tr>
+          <td>Intro to Econometrics</td>
+          <td>ECO 5350</td>
+          <td>A.Chatterjee</td>
+        </tr>
+        <tr>
+          <td>Senior Design</td>
+          <td>CSE 4351</td>
+          <td>M.Fontenot</td>
+        </tr>
+        <tr>
+          <td>Graphical User Interface</td>
+          <td>CSE 3345</td>
+          <td>J.Lawrimore</td>
+        </tr>
+        </table>
+      </aside>
+      
+    </main>
+
+    <!--contact form-->
+    <h3> Contact Me!</h3>
+    <form name="myForm">
+      <div class="email-field required">
+        <label for="Email Address">
+          Email Address
+        </label>
+        <input type=email
+               name="email"
+               id="email"
+               placeholder="your email here!"
+               />
+      </div>
+      <div class="message-field required">
+        <label for="Message">
+         Your Message: 
+        </label>
+            <textarea id="message" 
+            name="message" 
+            placeholder="Contact Me!" 
+            style="width:392px;height:200px">
+            </textarea>
+      </div>
+      
+      <button type="button" onclick="alert('Message Sent!')">
+        Send
+      </button>      
+    </form>
+    
+    <footer>
+      <a href="index.html">Back to Top</a>
+    </footer>
+  </body>
+
+<!---->
+
+</html>

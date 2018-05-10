@@ -1,0 +1,41 @@
+﻿.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    float:right;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container-fluid {
+    background-color: #2674f2;
+}
+
+.navbar-header {
+    height:95px;
+}
+
+a.dropdown-toggle {
+    color:white;
+}
+
+a.bar {
+    color:white;
+}
+
+a.navbar-brand {
+    float:left;
+    width:75%;
+}
+
+.carret {
+    color:white;
+}
+
+.add-course-btn {
+    float:right;
+}

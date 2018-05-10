@@ -1,0 +1,74 @@
+/* Styles go here */
+
+body {
+    font-family: Times;
+    font-size: 18px;
+    background-color:#d6ffa5;
+}
+
+absolute {
+  position: absolute;
+}
+
+/* wildcard selector */
+* {
+  text-align : Left;
+}
+
+#fake-hobby {
+  opacity: 0.2;
+  text-decoration: line-through;
+}
+
+img.relative {
+  position: relative;
+  float: left;
+  clear: left;
+  z-index: 4;
+}
+
+/*id selector for textarea*/
+/* scroll for overflow */
+#message {
+  text-align : left;
+  color : black;
+  font-family: verdana;
+  display: inline; 
+  overflow: scroll;
+}
+
+/*attr select*/
+/*padding instead of margin to prevent vertical auto-collapse*/
+input[type=email] {
+  width: 50%;
+  padding: 5px 5px 5px 5px;
+  font-family: verdana;
+}
+
+/*table tag element selector*/
+table {
+    width: 75%;
+    border: 2px solid #a1a1a1;
+    border-radius: 5px;
+    margin: 15px 15px 15px 30px;
+    opacity: 0.8;
+    z-index: auto;
+}
+
+th {
+    height: 30%;
+    border: 1px solid black;
+    text-align: center;
+}
+
+td {
+  height: 25%;
+  border: 1px solid black;
+  text-align: center;
+}
+
+/*back to top pseudo-class*/
+a:hover {
+	font-family: helvetica;
+  color:#FF00FF;
+}
